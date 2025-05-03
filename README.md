@@ -4,7 +4,6 @@
 
 ![npm version](https://img.shields.io/npm/v/one-linear-validator)
 ![License](https://img.shields.io/npm/l/one-linear-validator)
-![Downloads](https://img.shields.io/npm/dm/one-linear-validator)
 
 ---
 
