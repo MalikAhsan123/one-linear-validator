@@ -1,6 +1,6 @@
 {
   "name": "one-linear-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight JavaScript utility for validating emails, URLs, phone numbers, and more — all in one-liners.",
   "main": "index.js",
   "type": "module",
