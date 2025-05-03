@@ -11,9 +11,30 @@
     "type": "git",
     "url": "git+https://github.com/MalikAhsan123/one-linear-validator.git"
   },
-  "keywords": [
-    "npm"
-  ],
+"keywords": [
+  "validator",
+  "input validation",
+  "JavaScript",
+  "validation library",
+  "email validation",
+  "phone number validation",
+  "URL validation",
+  "hex color validation",
+  "date validation",
+  "ESM",
+  "dependency-free",
+  "lightweight",
+  "fast",
+  "one-liner functions",
+  "form validation",
+  "web development",
+  "Node.js",
+  "browser validation",
+  "modular",
+  "plug-and-play",
+  "minimalist"
+],
+
   "author": "Muhammad Ahsan Raza",
   "license": "Apache-2.0",
   "bugs": {
