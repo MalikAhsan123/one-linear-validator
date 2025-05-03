@@ -1,34 +1,31 @@
-Description:
+# 📏 one-linear-validator
 
-One-Linear Validator is a lightweight, dependency-free JavaScript library that provides concise, one-line functions for validating common input formats such as emails, phone numbers, URLs, hex colors, and dates. Designed for modern web development, it supports both Node.js and browser environments with full ECMAScript Module (ESM) compatibility.
+> A minimalist, dependency-free JavaScript library for quick and easy input validation using one-liner functions.
 
-With a focus on minimalism and performance, One-Linear Validator enables developers to write clean, readable validation logic using named exports. Whether you're building forms, APIs, or command-line tools, this plug-and-play library is ideal for quick and reliable inline validations.
+![npm version](https://img.shields.io/npm/v/one-linear-validator)
+![License](https://img.shields.io/npm/l/one-linear-validator)
+![Downloads](https://img.shields.io/npm/dm/one-linear-validator)
 
-Features:
+---
 
-✅ Zero dependencies – minimal and fast
+## ✨ Features
 
-🔁 One-line validation functions for common input types
+- ✅ Zero dependencies – lightweight and fast
+- 💡 One-liner functions for clean and readable validation
+- 🔗 Named exports – import only what you need
+- 🌍 Works in both Node.js and browser environments
+- 📦 Full ESM (ECMAScript Module) support
+- 🧩 Plug-and-play usage
 
-📦 Named exports – import only what you need
+---
 
-🌐 Works in both browser and Node.js environments
+## 📦 Installation
 
-🔧 ESM support for modern JavaScript tooling
-
-⚡ Simple, readable syntax for inline usage
-
-Installation:
-
-bash
-Copy
-Edit
+```bash
 npm install one-linear-validator
-Example Usage (ESM):
 
-js
-Copy
-Edit
+🚀 Usage Example
+
 import { isEmail, isPhoneNumber, isURL, isHexColor, isDate } from 'one-linear-validator';
 
 console.log(isEmail('user@example.com'));       // true
@@ -36,17 +33,25 @@ console.log(isPhoneNumber('+1234567890'));      // true
 console.log(isURL('https://example.com'));      // true
 console.log(isHexColor('#ff5733'));             // true
 console.log(isDate('2025-05-04'));              // true
-Use Cases:
 
-User input validation in web and mobile forms
+✅ Built-in Validators
 
-API request validation
+| Function          | Description                           | Example                 |
+| ----------------- | ------------------------------------- | ----------------------- |
+| `isEmail()`       | Validates email addresses             | `'user@example.com'`    |
+| `isPhoneNumber()` | Validates international phone numbers | `'+1234567890'`         |
+| `isURL()`         | Validates URLs (http/https)           | `'https://example.com'` |
+| `isHexColor()`    | Validates hex color codes             | `'#FF5733'`             |
+| `isDate()`        | Validates `YYYY-MM-DD` dates          | `'2025-05-04'`          |
 
-CMS and content editing workflows
+💼 Use Cases
+🔐 User registration and login forms
 
-Command-line argument validation
+📱 Mobile and web form validation
 
-Lightweight projects needing fast, inline validation
+🧾 API input validation
 
-License:
-MIT – Free for personal and commercial use
+✍️ CMS/editor input sanitization
+
+🖥️ CLI tool input checks
+
