@@ -1,0 +1,23 @@
+{
+  "name": "one-linear-validator",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript utility for validating emails, URLs, phone numbers, and more — all in one-liners.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalikAhsan123/one-linear-validator.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Muhammad Ahsan Raza",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MalikAhsan123/one-linear-validator/issues"
+  },
+  "homepage": "https://github.com/MalikAhsan123/one-linear-validator#readme"
+}
