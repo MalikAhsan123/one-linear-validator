@@ -36,7 +36,12 @@
     "input",
     "javascript",
     "one-liner",
-    "form-validation"
+    "form-validation",
+    "form",
+    "validate",
+    "inputs",
+    "phone validate",
+    "phone"
   ],
   "author": "Muhammad Ahsan Raza",
   "license": "Apache-2.0",
