@@ -1,6 +1,6 @@
 {
   "name": "one-linear-validator",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A minimalist, dependency-free JavaScript validation library with one-liner functions for validating emails, Strong Password, phone numbers, URLs, hex colors, and dates.",
   "main": "index.js",
   "type": "module",
