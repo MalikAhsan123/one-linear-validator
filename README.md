@@ -1,26 +1,28 @@
-📏 one-linear-validator
-A minimalist, dependency-free JavaScript library for quick and easy input validation using one-liner functions.
+ 📏 one-linear-validator
 
+> A minimalist, dependency-free JavaScript library for quick and easy input validation using one-liner functions.
 
+![npm](https://img.shields.io/npm/v/one-linear-validator?style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/one-linear-validator?style=flat-square)
+![License](https://img.shields.io/npm/l/one-linear-validator?style=flat-square)
+![Downloads](https://img.shields.io/npm/dt/one-linear-validator?style=flat-square)
 
+---
 
-✨ Features
-✅ Zero dependencies – lightweight and fast
+## ✨ Features
 
-💡 One-liner functions for clean and readable validation
+- ✅ **Zero dependencies** – lightweight and fast
+- 💡 **One-liner functions** – clean and readable validation
+- 🔗 **Named exports** – import only what you need
+- 🌍 **Universal support** – works in both Node.js and browser environments
+- 📦 **Full ESM support** – native modern JavaScript compatibility
+- 🧩 **Plug-and-play** – no configuration needed
 
-🔗 Named exports – import only what you need
+---
 
-🌍 Works in both Node.js and browser environments
+## 📦 Installation
 
-📦 Full ESM (ECMAScript Module) support
-
-🧩 Plug-and-play usage
-
-📦 Installation
-bash
-Copy
-Edit
+```bash
 npm install one-linear-validator
 🚀 Usage Example
 js
@@ -61,3 +63,16 @@ isStrongPassword()	Validates strong passwords (8+ chars, uppercase, digit, speci
 
 🖥️ CLI tool input checks
 
+🧠 Author
+Malik Ahsan – GitHub
+
+📄 License
+This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you’d like a version with GitHub-friendly sections like `Contributing`, `Changelog`, or `A
