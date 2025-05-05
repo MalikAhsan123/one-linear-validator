@@ -1,22 +1,34 @@
- 📏 one-linear-validator
+<h1 align="center">📏 one-linear-validator</h1>
 
-> A minimalist, dependency-free JavaScript library for quick and easy input validation using one-liner functions.
+<p align="center">
+  <i>A minimalist, dependency-free JavaScript library for quick and easy input validation using one-liner functions.</i>
+</p>
 
-![npm](https://img.shields.io/npm/v/one-linear-validator?style=flat-square)
-![npm bundle size](https://img.shields.io/bundlephobia/min/one-linear-validator?style=flat-square)
-![License](https://img.shields.io/npm/l/one-linear-validator?style=flat-square)
-![Downloads](https://img.shields.io/npm/dt/one-linear-validator?style=flat-square)
+<p align="center">
+  <a href="https://www.npmjs.com/package/one-linear-validator">
+    <img src="https://img.shields.io/npm/v/one-linear-validator?style=for-the-badge" alt="npm version" />
+  </a>
+  <a href="https://www.npmjs.com/package/one-linear-validator">
+    <img src="https://img.shields.io/bundlephobia/min/one-linear-validator?style=for-the-badge" alt="Bundle Size" />
+  </a>
+  <a href="https://github.com/MalikAhsan123/one-linear-validator/blob/main/LICENSE">
+    <img src="https://img.shields.io/npm/l/one-linear-validator?style=for-the-badge" alt="License" />
+  </a>
+  <a href="https://www.npmjs.com/package/one-linear-validator">
+    <img src="https://img.shields.io/npm/dt/one-linear-validator?style=for-the-badge" alt="Downloads" />
+  </a>
+</p>
 
 ---
 
 ## ✨ Features
 
-- ✅ **Zero dependencies** – lightweight and fast
-- 💡 **One-liner functions** – clean and readable validation
-- 🔗 **Named exports** – import only what you need
-- 🌍 **Universal support** – works in both Node.js and browser environments
-- 📦 **Full ESM support** – native modern JavaScript compatibility
-- 🧩 **Plug-and-play** – no configuration needed
+- ✅ **Zero dependencies** – lightweight and fast  
+- 💡 **One-liner functions** – clean, readable, and reusable  
+- 🔗 **Named exports** – import only what you need  
+- 🌍 **Cross-platform** – works in both Node.js and browsers  
+- 📦 **ESM-ready** – modern module support  
+- 🧩 **Plug-and-play** – no setup required  
 
 ---
 
@@ -24,8 +36,10 @@
 
 ```bash
 npm install one-linear-validator
-🚀 Usage Example
-
+🚀 Usage
+js
+Copy
+Edit
 import {
   isEmail,
   isPhoneNumber,
@@ -51,9 +65,9 @@ isDate()	Validates YYYY-MM-DD formatted dates	'2025-05-04'
 isStrongPassword()	Validates strong passwords (8+ chars, uppercase, digit, special char)	'Abc@1234'
 
 💼 Use Cases
-🔐 User registration and login forms
+🔐 User registration & login forms
 
-📱 Mobile and web form validation
+📱 Mobile & web form validation
 
 🧾 API input validation
 
@@ -62,13 +76,16 @@ isStrongPassword()	Validates strong passwords (8+ chars, uppercase, digit, speci
 🖥️ CLI tool input checks
 
 🧠 Author
-Malik Ahsan – GitHub
+Made with 💙 by Malik Ahsan
 
 📄 License
 This project is licensed under the MIT License.
 
+markdown
+Copy
+Edit
 
-
----
-
-Let me know if you’d like a version with GitHub-friendly sections like `Contributing`, `Changelog`, or `A
+Let me know if you’d like to add:
+- A `CONTRIBUTING.md` guide
+- Badges for GitHub stars, issues, forks
+- Animated demo GIFs or screenshots for usage
