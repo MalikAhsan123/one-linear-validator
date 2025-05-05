@@ -37,9 +37,7 @@
 ```bash
 npm install one-linear-validator
 🚀 Usage
-js
-Copy
-Edit
+
 import {
   isEmail,
   isPhoneNumber,
@@ -80,10 +78,6 @@ Made with 💙 by Malik Ahsan
 
 📄 License
 This project is licensed under the MIT License.
-
-markdown
-Copy
-Edit
 
 Let me know if you’d like to add:
 - A `CONTRIBUTING.md` guide
