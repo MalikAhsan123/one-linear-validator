@@ -124,5 +124,3 @@ Licensed under the Apache-2.0 License.
 Built with ❤️ by Muhammad Ahsan Raza
 
 ---
-
-Would you like this `README.md` saved as a file, or copied into your GitHub repository automatically using CLI commands?
