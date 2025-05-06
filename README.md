@@ -1,7 +1,7 @@
 # one-linear-validator 🧪
 
 [![npm version](https://img.shields.io/npm/v/one-linear-validator.svg)](https://www.npmjs.com/package/one-linear-validator)
-[![npm downloads](https://img.shields.io/npm/dm/one-linear-validator.svg)](https://www.npmjs.com/package/one-linear-validator)
+[![npm total downloads](https://img.shields.io/npm/dt/one-linear-validator.svg)](https://www.npmjs.com/package/one-linear-validator)
 [![License](https://img.shields.io/npm/l/one-linear-validator.svg)](https://github.com/MalikAhsan123/one-linear-validator/blob/main/LICENSE)
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/one-linear-validator)](https://bundlephobia.com/package/one-linear-validator)
 [![Issues](https://img.shields.io/github/issues/MalikAhsan123/one-linear-validator)](https://github.com/MalikAhsan123/one-linear-validator/issues)
