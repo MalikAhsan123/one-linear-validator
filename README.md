@@ -1,34 +1,27 @@
-<h1 align="center">📏 one-linear-validator</h1>
+# one-linear-validator 🧪
 
-<p align="center">
-  <i>A minimalist, dependency-free JavaScript library for quick and easy input validation using one-liner functions.</i>
-</p>
+[![npm version](https://img.shields.io/npm/v/one-linear-validator.svg)](https://www.npmjs.com/package/one-linear-validator)
+[![npm downloads](https://img.shields.io/npm/dm/one-linear-validator.svg)](https://www.npmjs.com/package/one-linear-validator)
+[![License](https://img.shields.io/npm/l/one-linear-validator.svg)](https://github.com/MalikAhsan123/one-linear-validator/blob/main/LICENSE)
+[![Node.js](https://img.shields.io/node/v/one-linear-validator.svg)](https://nodejs.org/)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/one-linear-validator)](https://bundlephobia.com/package/one-linear-validator)
+[![Issues](https://img.shields.io/github/issues/MalikAhsan123/one-linear-validator)](https://github.com/MalikAhsan123/one-linear-validator/issues)
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/one-linear-validator">
-    <img src="https://img.shields.io/npm/v/one-linear-validator?style=for-the-badge" alt="npm version" />
-  </a>
-  <a href="https://www.npmjs.com/package/one-linear-validator">
-    <img src="https://img.shields.io/bundlephobia/min/one-linear-validator?style=for-the-badge" alt="Bundle Size" />
-  </a>
-  <a href="https://github.com/MalikAhsan123/one-linear-validator/blob/main/LICENSE">
-    <img src="https://img.shields.io/npm/l/one-linear-validator?style=for-the-badge" alt="License" />
-  </a>
-  <a href="https://www.npmjs.com/package/one-linear-validator">
-    <img src="https://img.shields.io/npm/dt/one-linear-validator?style=for-the-badge" alt="Downloads" />
-  </a>
-</p>
+> 🔍 A minimalist, dependency-free JavaScript validation library with one-liner functions for common input formats like Email, Phone, URL, Hex Color, Date, and Strong Passwords — returns clean structured results with error messages.
 
 ---
 
 ## ✨ Features
 
-- ✅ **Zero dependencies** – lightweight and fast  
-- 💡 **One-liner functions** – clean, readable, and reusable  
-- 🔗 **Named exports** – import only what you need  
-- 🌍 **Cross-platform** – works in both Node.js and browsers  
-- 📦 **ESM-ready** – modern module support  
-- 🧩 **Plug-and-play** – no setup required  
+- ✅ Email validation
+- 📱 Phone number validation
+- 🌐 URL validation
+- 🎨 Hex color code validation
+- 📅 Date (YYYY-MM-DD) validation
+- 🔒 Strong password checker (with custom rules)
+- ⚡️ Lightweight & fast
+- ❌ No external dependencies
+- ✅ ESM support (Node.js & modern browsers)
 
 ---
 
@@ -36,6 +29,10 @@
 
 ```bash
 npm install one-linear-validator
+or with yarn:
+
+yarn add one-linear-validator
+
 🚀 Usage
 
 import {
@@ -44,42 +41,88 @@ import {
   isURL,
   isHexColor,
   isDate,
-  isStrongPassword
+  isStrongPassword,
 } from 'one-linear-validator';
 
-console.log(isEmail('user@example.com'));         // true
-console.log(isPhoneNumber('+1234567890'));        // true
-console.log(isURL('https://example.com'));        // true
-console.log(isHexColor('#ff5733'));               // true
-console.log(isDate('2025-05-04'));                // true
-console.log(isStrongPassword('Abc@1234'));        // true
-✅ Built-in Validators
-Function	Description	Example
-isEmail()	Validates email addresses	'user@example.com'
-isPhoneNumber()	Validates international phone numbers	'+1234567890'
-isURL()	Validates URLs (http/https)	'https://example.com'
-isHexColor()	Validates hex color codes	'#FF5733'
-isDate()	Validates YYYY-MM-DD formatted dates	'2025-05-04'
-isStrongPassword()	Validates strong passwords (8+ chars, uppercase, digit, special char)	'Abc@1234'
+console.log(isEmail('test@example.com'));
+// { valid: true }
 
-💼 Use Cases
-🔐 User registration & login forms
+console.log(isPhoneNumber('+1234567890'));
+// { valid: true }
 
-📱 Mobile & web form validation
+console.log(isURL('https://example.com'));
+// { valid: true }
 
-🧾 API input validation
+console.log(isHexColor('#ffcc00'));
+// { valid: true }
 
-✍️ CMS/editor input sanitization
+console.log(isDate('2024-05-06'));
+// { valid: true }
 
-🖥️ CLI tool input checks
+console.log(isStrongPassword('Password@123'));
+// { valid: true }
+📚 API Reference
+Each validator returns an object:
 
-🧠 Author
-Made with 💙 by Malik Ahsan
+
+{ valid: true } 
+// or 
+{ valid: false, error: 'Reason here' }
+isEmail(str)
+Checks for a valid email format.
+
+isPhoneNumber(str)
+Accepts international formats, with or without +.
+
+isURL(str)
+Matches HTTP/HTTPS URLs, domains, optional port and path.
+
+isHexColor(str)
+Supports #RGB, #RRGGBB, or without #.
+
+isDate(str)
+Accepts date in YYYY-MM-DD format.
+
+isStrongPassword(str, options?)
+Checks password strength with default or custom rules.
+
+Options:
+
+{
+  minLength: 8,
+  uppercase: true,
+  number: true,
+  specialChar: true
+}
+
+✅ Example with Custom Password Rules
+
+isStrongPassword('abc123', {
+  minLength: 6,
+  uppercase: false,
+  number: true,
+  specialChar: false,
+});
+💡 Why one-linear-validator?
+✅ Clean return values
+✅ Simple integration
+✅ Great for forms, APIs, and input sanitization
+✅ Developer-friendly messages
+
+🛠️ Contributing
+Pull requests and suggestions are welcome!
+Open an issue or fork and create a PR.
 
 📄 License
-This project is licensed under the MIT License.
+Licensed under the Apache-2.0 License.
 
-Let me know if you’d like to add:
-- A `CONTRIBUTING.md` guide
-- Badges for GitHub stars, issues, forks
-- Animated demo GIFs or screenshots for usage
+🌐 Links
+📦 NPM Page
+
+🛠 GitHub Repo
+
+Built with ❤️ by Muhammad Ahsan Raza
+
+---
+
+Would you like this `README.md` saved as a file, or copied into your GitHub repository automatically using CLI commands?

@@ -4,6 +4,9 @@
   "description": "A minimalist, dependency-free JavaScript validation library with one-liner functions for validating emails, Strong Password, phone numbers, URLs, hex colors, and dates.",
   "main": "index.js",
   "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "test": "npm run test"
   },
@@ -41,7 +44,10 @@
     "date",
     "password",
     "one-liner",
-    "forms"
+    "forms",
+    "One-liner validation functions",
+    "Simple input validator npm",
+    "JavaScript form validation library"
   ],
   "author": "Muhammad Ahsan Raza",
   "license": "Apache-2.0",
